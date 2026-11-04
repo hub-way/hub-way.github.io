@@ -65,7 +65,7 @@ future: true
 remote_theme: samarsault/plainwhite-jekyll
 exclude:
   - plainwhite.gemspec
-  -title: Find out Everything
+title: Find out Everything
 author: Moon ki jeong 
 email: 
 description: > # this means to ignore newlines until "show_exerpts:"
