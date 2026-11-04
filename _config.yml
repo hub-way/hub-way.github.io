@@ -60,6 +60,8 @@ theme: "plainwhite"
 
 plugins:
   - jekyll-seo-tag
-#  - jekyll-feed
+  - jekyll-feed
 future: true
 remote_theme: samarsault/plainwhite-jekyll
+exclude:
+  - plainwhite.gemspec
