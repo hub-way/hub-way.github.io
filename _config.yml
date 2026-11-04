@@ -23,9 +23,6 @@ plainwhite:
   disqus_shortname: games
   show_excerpts: true
   condensed_mobile:
-    - home
-    - page
-    - post
   #generate social links in footer
   social_links:
     #twitter: samarsault
