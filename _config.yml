@@ -1,6 +1,6 @@
 title: Find out Everything
 author: Moon ki jeong 
-email: gasiri@gmail.com
+email: 
 description: > # this means to ignore newlines until "show_exerpts:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -23,16 +23,14 @@ plainwhite:
   condensed_mobile:
   disqus_shortname: games
   show_excerpts: true
- 
-  
     #- home
-    - page
-    - post
-  # generate social links in footer
-  social_links:
-    twitter: #samarsault
+    #- page
+    #- post
+    #generate social links in footer
+    social_links:
+    #twitter: samarsault
     github:  hub-way
-    linkedIn: #in/samarsault
+    #linkedIn: in/samarsault
     #dribbble: jekyll
     #flickr:   jekyll
     #instagram: jekyll
@@ -60,6 +58,7 @@ plainwhite:
 #theme: "plainwhite"
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-feed
 future: true
