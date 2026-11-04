@@ -86,13 +86,13 @@ plainwhite:
   html_lang: "en" # set the lang attribute of the <html> tag for the pages. See here for a list of codes: https://www.w3schools.com/tags/ref_country_codes.asp
   disqus_shortname: games
   show_excerpts: true
-  condensed_mobile:
+  #condensed_mobile:
    # - home
    #- page
    #- post
     
     #generate social links in footer
-    social_links:
+  social_links:
     #twitter: samarsault
     github:  hub-way
     #linkedIn: in/samarsault
@@ -159,7 +159,7 @@ plainwhite:
    # - post
     
     #generate social links in footer
-    social_links:
+  social_links:
     #twitter: samarsault
     github:  hub-way
     #linkedIn: in/samarsault
