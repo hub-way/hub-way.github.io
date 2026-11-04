@@ -24,9 +24,6 @@ plainwhite:
   disqus_shortname: games
   show_excerpts: true
   tagline: |
-  First Line. 
-  Second Line. 
-  Third Line.
     #- home
     - page
     - post
