@@ -17,7 +17,8 @@ Colab 에 마운트 하여 note로 작업하는 과정이다.
 
 **Demo** https://colab.research.google.com/drive/19NoNynRfAua543DPfkZnUjbEik5bARbB?hl=ko
 
-{% highlight ruby %} 
+{% highlight ruby %} \
+
 #*************************************************************** \
 print("{:*^50}".format(" januaryTemperature.jpynb ") )  \
 print("@ Title       :                            ")    \
@@ -36,8 +37,7 @@ print(original_dir)
 
 f = open ('./my_drive/MyDrive/Colab Notebooks/t.csv', 'r', encoding='cp949') \
 data = csv.reader(f, delimiter=',') \
-print(data) \
-'''
-{% endhighlight %}
+print(data) 
 
+{% endhighlight %}
 
