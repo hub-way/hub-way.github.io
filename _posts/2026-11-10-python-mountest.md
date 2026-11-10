@@ -13,7 +13,7 @@ Colab 에 마운트 하여 note로 작업하는 과정이다.
 
 **Demo** https://colab.research.google.com/drive/19NoNynRfAua543DPfkZnUjbEik5bARbB?hl=ko
 
-''' 
+{% highlight ruby %} 
 #*************************************************************** \
 print("{:*^50}".format(" januaryTemperature.jpynb ") )  \
 print("@ Title       :                            ")    \
@@ -29,6 +29,7 @@ MAX_TEMPERATURE = -100
 drive.mount('./my_drive', force_remount=True) \
 original_dir = os.getcwd()                    \
 print(original_dir)                           \
+ {% endhighlight %}
 
 f = open ('./my_drive/MyDrive/Colab Notebooks/t.csv', 'r', encoding='cp949') \
 data = csv.reader(f, delimiter=',') \
