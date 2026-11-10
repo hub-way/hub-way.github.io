@@ -1,5 +1,9 @@
-## Git hub를 이용하여 까페에 코드 관련 글을 작성하는 법을 연습.
-
+---
+layout: post
+title:  "Git hub를 이용하여 까페에 코드 관련 글을 작성하는 법을 연습."
+date:   2026-11-10 22:08:14 +0900
+categories: My code test update
+---
 몇가지 md 파일의 문법도 살짝 보았다. 
 무엇보다도 지금은 
 Git-hub 에서 파일을 쉽게 작성하고 보기 좋게
@@ -28,12 +32,12 @@ print("{:*^50}".format("") )                             \
 MAX_TEMPERATURE = -100
 drive.mount('./my_drive', force_remount=True) \
 original_dir = os.getcwd()                    \
-print(original_dir)                           \
- {% endhighlight %}
+print(original_dir)                           
 
 f = open ('./my_drive/MyDrive/Colab Notebooks/t.csv', 'r', encoding='cp949') \
 data = csv.reader(f, delimiter=',') \
 print(data) \
 '''
+{% endhighlight %}
 
 
