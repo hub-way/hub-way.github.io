@@ -14,16 +14,16 @@ Colab 에 마운트 하여 note로 작업하는 과정이다.
 **Demo** https://colab.research.google.com/drive/19NoNynRfAua543DPfkZnUjbEik5bARbB?hl=ko
 
 '''
-#***************************************************************
-print("{:*^50}".format(" januaryTemperature.jpynb ") )
-print("@ Title       :                            ")
-print("@ Writer      : A71010_문 기 정            ")
-print("@ Description :                            ")
-print("Jupyter 코딩연습. 1월 최대온도/최저 온도 산출 ")
-print("@name :januaryTemperature.jpynb           ")
-print("@ 2026 11.08 : Create Project ....         ")
-print("{:*^50}".format("") )
-#***************************************************************
+#*************************************************************** \
+print("{:*^50}".format(" januaryTemperature.jpynb ") )  \
+print("@ Title       :                            ")    \
+print("@ Writer      : A71010_문 기 정            ")    \
+print("@ Description :                            ")    \
+print("Jupyter 코딩연습. 1월 최대온도/최저 온도 산출 ")   \
+print("@name :januaryTemperature.jpynb           ")      \
+print("@ 2026 11.08 : Create Project ....         ")     \
+print("{:*^50}".format("") )                             \
+#*************************************************************** \
 
 MAX_TEMPERATURE = -100
 
