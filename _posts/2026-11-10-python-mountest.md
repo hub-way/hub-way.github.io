@@ -30,14 +30,14 @@ print("@ 2026 11.08 : Create Project ....         ")     \
 print("{:*^50}".format("") )                             \
 #*************************************************************** 
 
-MAX_TEMPERATURE = -100
+MAX_TEMPERATURE = -100 \
 drive.mount('./my_drive', force_remount=True) \
 original_dir = os.getcwd()                    \
-print(original_dir)                           
+print(original_dir)   \                        
 
 f = open ('./my_drive/MyDrive/Colab Notebooks/t.csv', 'r', encoding='cp949') \
 data = csv.reader(f, delimiter=',') \
-print(data) 
+print(data) \
 
 {% endhighlight %}
 
